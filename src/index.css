@@ -9,6 +9,7 @@ body {
   max-width: 728px;
   margin: auto;
   background-color: #d55b3e;
+  height: 100%;
 }
 
 a {
@@ -30,7 +31,6 @@ p.special {
 p.picture {
   font-size: 0.2rem;
   font-weight: 900;
-  /* text-align: center; */
 }
 
 .profile-container {
@@ -43,7 +43,7 @@ p.picture {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 95%;
   object-fit: cover;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -52,4 +52,18 @@ p.picture {
 
 .profile-container:hover .profile-image {
   opacity: 0.6;
+}
+
+footer {
+  color: #070606b5;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 10px;
 }

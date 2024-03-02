@@ -19,3 +19,7 @@ nav {
   gap: 16px;
   font-size: 1.25rem;
 }
+
+.profile:hover h1{
+  color: #fcf4d9;
+}

@@ -1,0 +1,22 @@
+.blogContainer {
+    margin-top: 50px;
+}
+
+.blogPosts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.blogPosts h2:hover {
+    color: #0def95;
+}
+
+@media only screen and (max-width: 400px) {
+    .blogPosts h2 {
+        font-size: 14px;
+    }
+    .author {
+        font-size: 12px;
+    }
+}
