@@ -1,13 +1,12 @@
 nav {
   display: flex;
-  width: 100vw;
-  margin: 25px auto;
-  justify-content: space-evenly;
+  margin: 25px 2px;
+  justify-content: space-between;
   align-items: center;
 }
 
 .profile h1 {
-  font-size: 2rem;
+  font-size: 28px;
 }
 
 .profile p {
@@ -17,6 +16,6 @@ nav {
 .navbar {
   display: flex;
   list-style: none;
-  gap: 15px;
+  gap: 16px;
   font-size: 1.25rem;
 }

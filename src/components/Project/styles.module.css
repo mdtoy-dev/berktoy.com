@@ -1,0 +1,31 @@
+.project {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+  justify-content: end;
+  position: relative;
+}
+
+.image {
+  position: fixed;
+  top: 25vh;
+  left: 30vw;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s ease;
+  width: 200px;
+  height: auto;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.project:hover .image {
+  visibility: visible;
+  opacity: 1;
+}
+
+
