@@ -1,6 +1,7 @@
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa"
 import { CgMail } from "react-icons/cg"
 import styles from "./styles.module.css"
+import resume from "../../assets/berktoy2024cv.pdf"
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
           <li>berk.toy1@gmail.com</li>
           <li>+447541540173</li>
         </ul>
-        <a href="src/assets/berktoy2024cv.pdf" download>
+        <a href={resume} download>
           Download Resume (PDF)
         </a>
       </div>
