@@ -27,15 +27,22 @@ p.special {
   font-style: italic;
   color: #333;
 }
-
+/* 
 p.picture {
-  font-size: 0.2rem;
+  font-size: 2.6px;
   font-weight: 900;
+} */
+
+.picture {
+  width: 156.172px;
+  height: 216.203px;
 }
 
 .profile-container {
   position: relative;
   display: inline-block;
+  width: 156.172px;
+  height: 216.203px;
 }
 
 .profile-image {
@@ -43,7 +50,7 @@ p.picture {
   top: 0;
   left: 0;
   width: 100%;
-  height: 95%;
+  height: 98%;
   object-fit: cover;
   opacity: 0;
   transition: opacity 0.3s ease;

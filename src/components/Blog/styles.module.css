@@ -12,7 +12,7 @@
     color: #0def95;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .blogPosts h2 {
         font-size: 14px;
     }

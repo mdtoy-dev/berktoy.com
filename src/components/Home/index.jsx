@@ -1,5 +1,6 @@
 import styles from "./styles.module.css"
 import profilePic from "../../assets/profile.jpeg"
+import textPic from "../../assets/textPic.png"
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
         becomes the hunter. I’m coming for you AI.
       </p>
       <div className="profile-container">
-        <p className="picture">
+        {/* <p className="picture">
           ~7^^~7~~~~!:^?!?YY?JP5JJ!JYYY7^?J7?5Y^Y?^7^:^~7!::: ..:. . ...^.^~~
           <br></br>
           7!7!~7?~~?JJYYJ??YJ?J5555JJJ7?7J!???J7?J!7Y?!!~!?!^:^^.... .^.
@@ -124,7 +125,10 @@ const Home = () => {
           G??!.?5PPGGGBB#######GPPPGPPPPPPPPGGGGGGGGGGGGGGGGGGGGGGPPP5PPPGGGBB#BBBBGGGP5YY5PBBBGGGGGGPPPP5PP55
           <br></br>
           PY7J!^5PPGBBB#######BGB#BGGPPPPPPPPPPPPPPPPPPPPPPPPPPP55555PPGGGGBBBBB####BGGP555PGBGGGGPPPPPPPPP5P5
-        </p>
+        </p> */}
+        <img
+        src={textPic}
+        className="picture"></img>
         <img
           src={profilePic}
           alt="Profile image"
