@@ -2,7 +2,7 @@
 
 SPA built with react and vite
 
-[berktoy.com](berktoy.com)
+[berktoy.com](https://berktoy.com/)
 
 ## Comments
 
