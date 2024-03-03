@@ -1,4 +1,5 @@
 import styles from "./styles.module.css"
+import profilePic from "../../assets/profile.jpeg"
 
 const Home = () => {
   return (
@@ -125,7 +126,7 @@ const Home = () => {
           PY7J!^5PPGBBB#######BGB#BGGPPPPPPPPPPPPPPPPPPPPPPPPPPP55555PPGGGGBBBBB####BGGP555PGBGGGGPPPPPPPPP5P5
         </p>
         <img
-          src="src/assets/profile.jpeg"
+          src={profilePic}
           alt="Profile image"
           className="profile-image"
         ></img>
